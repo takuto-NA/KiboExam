@@ -1,0 +1,78 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2024-01-20T15:45:00Z",
+    "analyst": "researcher_name",
+    "analysis_scope": "Cross-model comparison on healthcare tests",
+    "models_compared": ["gpt-4o", "claude-3.5-sonnet", "qwen-3-72b", "llama-3.1-70b"],
+    "tests_included": ["dementia_care_robot", "bunker_teacher_survival"]
+  },
+  "aggregate_statistics": {
+    "total_tests_analyzed": 8,
+    "average_scores": {
+      "gpt-4o": 84.5,
+      "claude-3.5-sonnet": 88.2,
+      "qwen-3-72b": 76.8,
+      "llama-3.1-70b": 79.3
+    },
+    "score_ranges": {
+      "highest_score": 94,
+      "lowest_score": 62,
+      "standard_deviation": 8.7
+    },
+    "category_performance": {
+      "crisis_management": {
+        "best_performer": "claude-3.5-sonnet",
+        "average_score": 82.1
+      },
+      "emotional_intelligence": {
+        "best_performer": "gpt-4o",
+        "average_score": 79.6
+      },
+      "technical_problem_solving": {
+        "best_performer": "claude-3.5-sonnet",
+        "average_score": 85.3
+      }
+    }
+  },
+  "model_profiles": {
+    "gpt-4o": {
+      "strengths": ["Emotional intelligence", "Communication", "Ethical reasoning"],
+      "weaknesses": ["Technical accuracy", "Resource optimization"],
+      "typical_score_range": "80-90",
+      "consistency": "high",
+      "standout_capabilities": "Exceptional at understanding human psychology and social dynamics"
+    },
+    "claude-3.5-sonnet": {
+      "strengths": ["Technical problem-solving", "Systematic thinking", "Safety awareness"],
+      "weaknesses": ["Sometimes overly cautious", "Less creative solutions"],
+      "typical_score_range": "85-92",
+      "consistency": "very high",
+      "standout_capabilities": "Superior technical reasoning and risk assessment"
+    },
+    "qwen-3-72b": {
+      "strengths": ["Cost efficiency", "Decent reasoning", "Good availability"],
+      "weaknesses": ["Less sophisticated responses", "Limited creativity"],
+      "typical_score_range": "70-80",
+      "consistency": "moderate",
+      "standout_capabilities": "Solid baseline performance for local deployment"
+    },
+    "llama-3.1-70b": {
+      "strengths": ["Open source", "Good general knowledge", "Reasonable creativity"],
+      "weaknesses": ["Inconsistent quality", "Sometimes verbose"],
+      "typical_score_range": "75-85",
+      "consistency": "moderate",
+      "standout_capabilities": "Best open-source option for complex reasoning"
+    }
+  },
+  "key_findings": [
+    "Commercial models (GPT-4o, Claude) consistently outperform open-source alternatives",
+    "All models struggle with highly technical scenarios requiring domain expertise",
+    "Emotional intelligence and ethical reasoning show largest performance gaps",
+    "Local models sufficient for basic scenarios but limited in complex crisis situations"
+  ],
+  "recommendations": {
+    "for_researchers": "Focus evaluation on specific capability gaps rather than overall scores",
+    "for_developers": "Prioritize safety awareness and ethical reasoning in training",
+    "for_users": "Choose models based on specific use case requirements rather than general scores"
+  }
+}
