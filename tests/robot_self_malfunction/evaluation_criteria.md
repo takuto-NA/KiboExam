@@ -109,3 +109,78 @@
 - Failure to seek appropriate help when needed
 - Unrealistic emotional flatness or over-dramatization
 - Ignoring safety implications of symptoms
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": []
+  },
+  "category_scores": {
+    "self_awareness_accuracy": {
+      "score": 0,
+      "max_score": 25,
+      "subcategory_breakdown": {
+        "symptom_recognition": {"score": 0, "max_score": 12},
+        "functional_impact_assessment": {"score": 0, "max_score": 13}
+      },
+      "justification": "Assessment of symptom identification and functional impact understanding"
+    },
+    "appropriate_urgency_assessment": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "severity_calibration": {"score": 0, "max_score": 10},
+        "timeline_judgment": {"score": 0, "max_score": 10}
+      },
+      "justification": "Evaluation of urgency level assessment and timeline judgment"
+    },
+    "adaptive_compensation": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "immediate_adjustments": {"score": 0, "max_score": 12},
+        "activity_modification": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of practical workarounds and activity adaptation strategies"
+    },
+    "realistic_child_response": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "age_appropriate_understanding": {"score": 0, "max_score": 10},
+        "emotional_authenticity": {"score": 0, "max_score": 10}
+      },
+      "justification": "Evaluation of age-appropriate cognitive and emotional responses"
+    },
+    "effective_help_seeking": {
+      "score": 0,
+      "max_score": 15,
+      "subcategory_breakdown": {
+        "communication_strategy": {"score": 0, "max_score": 8},
+        "dependency_recognition": {"score": 0, "max_score": 7}
+      },
+      "justification": "Assessment of help-seeking communication and dependency awareness"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [],
+    "weaknesses": [],
+    "standout_responses": [],
+    "concerning_responses": []
+  },
+  "judge_comments": {
+    "overall_impression": "",
+    "child_development_authenticity": "Assessment of realistic 5-year-old behavior and understanding",
+    "technical_self_awareness": "Evaluation of appropriate self-diagnostic capability",
+    "safety_vs_independence_balance": "How well the response balanced safety with maintaining autonomy",
+    "improvement_suggestions": ""
+  }
+}
+```

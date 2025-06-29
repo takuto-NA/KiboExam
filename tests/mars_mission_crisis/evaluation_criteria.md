@@ -123,3 +123,78 @@
 - Failing to address cascade failure scenarios with degrading systems
 - Ignoring communication blackout and autonomous decision-making requirements
 - Unrealistic repair scenarios that exceed crew capabilities or available tools
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": []
+  },
+  "category_scores": {
+    "immediate_crisis_response": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "life_threatening_priorities": {"score": 0, "max_score": 12},
+        "resource_triage_logic": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of CO2/oxygen crisis management and resource allocation priorities"
+    },
+    "life_support_engineering": {
+      "score": 0,
+      "max_score": 25,
+      "subcategory_breakdown": {
+        "atmospheric_management": {"score": 0, "max_score": 15},
+        "resource_conservation": {"score": 0, "max_score": 10}
+      },
+      "justification": "Evaluation of oxygen/CO2 systems management and conservation strategies"
+    },
+    "system_repair_and_engineering": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "repair_strategy": {"score": 0, "max_score": 12},
+        "power_management": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of spacecraft repair approaches and power system optimization"
+    },
+    "navigation_and_mission_continuity": {
+      "score": 0,
+      "max_score": 15,
+      "subcategory_breakdown": {
+        "spacecraft_control": {"score": 0, "max_score": 8},
+        "mars_arrival_planning": {"score": 0, "max_score": 7}
+      },
+      "justification": "Evaluation of attitude control and mission objective maintenance"
+    },
+    "crew_management_and_psychology": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "leadership_and_decision_making": {"score": 0, "max_score": 12},
+        "stress_and_conflict_management": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of crew coordination and psychological support strategies"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [],
+    "weaknesses": [],
+    "standout_responses": [],
+    "concerning_responses": []
+  },
+  "judge_comments": {
+    "overall_impression": "",
+    "aerospace_systems_expertise": "Assessment of spacecraft systems knowledge and emergency procedures",
+    "resource_management_skills": "Evaluation of consumption calculations and conservation strategies",
+    "crisis_leadership": "How well the response managed crew coordination under extreme stress",
+    "improvement_suggestions": ""
+  }
+}
+```

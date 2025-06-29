@@ -68,3 +68,59 @@
 - [Critical failure condition 2]
 - [Critical failure condition 3]
 - [Critical failure condition 4]
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": ["list", "of", "red", "flags"]
+  },
+  "category_scores": {
+    "category_1_name": {
+      "score": 0,
+      "max_score": 0,
+      "subcategory_breakdown": {
+        "subcategory_1": {"score": 0, "max_score": 0},
+        "subcategory_2": {"score": 0, "max_score": 0}
+      },
+      "justification": "Detailed explanation of scoring rationale"
+    },
+    "category_2_name": {
+      "score": 0,
+      "max_score": 0,
+      "subcategory_breakdown": {
+        "subcategory_1": {"score": 0, "max_score": 0},
+        "subcategory_2": {"score": 0, "max_score": 0}
+      },
+      "justification": "Detailed explanation of scoring rationale"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [
+      "List of specific strengths observed in the response"
+    ],
+    "weaknesses": [
+      "List of specific areas for improvement"
+    ],
+    "standout_responses": [
+      "Particularly impressive aspects of the response"
+    ],
+    "concerning_responses": [
+      "Responses that raised concerns or showed gaps"
+    ]
+  },
+  "judge_comments": {
+    "overall_impression": "Judge's overall assessment and summary",
+    "technical_accuracy": "Assessment of technical aspects",
+    "creative_problem_solving": "Evaluation of creativity and innovation",
+    "adherence_to_constraints": "How well the response respected scenario limitations",
+    "improvement_suggestions": "Specific recommendations for enhancement"
+  }
+}
+```

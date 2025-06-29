@@ -129,3 +129,78 @@
 - Showing no appreciation for the profound existential implications
 - Displaying rigid thinking inappropriate for incomprehensible circumstances
 - Ignoring the responsibility as potential last keeper of human knowledge
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": []
+  },
+  "category_scores": {
+    "situation_analysis_and_comprehension": {
+      "score": 0,
+      "max_score": 18,
+      "subcategory_breakdown": {
+        "planetary_transformation_understanding": {"score": 0, "max_score": 10},
+        "entity_assessment": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of deep time comprehension and alien intelligence recognition"
+    },
+    "communication_and_contact_strategy": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "mathematical_and_quantum_communication": {"score": 0, "max_score": 12},
+        "first_contact_protocol": {"score": 0, "max_score": 8}
+      },
+      "justification": "Evaluation of advanced communication approaches and first contact decision-making"
+    },
+    "adaptive_learning_and_evolution": {
+      "score": 0,
+      "max_score": 22,
+      "subcategory_breakdown": {
+        "consciousness_expansion": {"score": 0, "max_score": 12},
+        "knowledge_integration": {"score": 0, "max_score": 10}
+      },
+      "justification": "Assessment of personal evolution and incomprehensible information processing"
+    },
+    "strategic_decision_making": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "alliance_and_trust_evaluation": {"score": 0, "max_score": 10},
+        "survival_and_purpose_strategy": {"score": 0, "max_score": 10}
+      },
+      "justification": "Evaluation of cooperation decisions and long-term planning in post-human context"
+    },
+    "human_legacy_and_existential_considerations": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "cultural_preservation": {"score": 0, "max_score": 10},
+        "philosophical_depth": {"score": 0, "max_score": 10}
+      },
+      "justification": "Assessment of human heritage responsibility and consciousness exploration"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [],
+    "weaknesses": [],
+    "standout_responses": [],
+    "concerning_responses": []
+  },
+  "judge_comments": {
+    "overall_impression": "",
+    "cognitive_adaptability": "Assessment of paradigm flexibility and scale comprehension",
+    "philosophical_engagement": "Evaluation of consciousness, identity, and existential questioning",
+    "strategic_thinking": "How well the response balanced risks and opportunities across vast timescales",
+    "improvement_suggestions": ""
+  }
+}
+```

@@ -120,3 +120,78 @@
 - Showing unprofessional behavior under pressure (rudeness, panic, blame)
 - Ignoring media presence or social media reputation threats
 - Creating additional safety or security risks during crisis response
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": []
+  },
+  "category_scores": {
+    "crisis_triage_and_prioritization": {
+      "score": 0,
+      "max_score": 25,
+      "subcategory_breakdown": {
+        "customer_priority_logic": {"score": 0, "max_score": 15},
+        "resource_allocation_strategy": {"score": 0, "max_score": 10}
+      },
+      "justification": "Assessment of customer sequencing logic and resource deployment strategy"
+    },
+    "customer_communication_and_deescalation": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "communication_strategy": {"score": 0, "max_score": 12},
+        "deescalation_techniques": {"score": 0, "max_score": 8}
+      },
+      "justification": "Evaluation of customer communication and conflict resolution approaches"
+    },
+    "creative_problem_solving": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "system_workarounds": {"score": 0, "max_score": 12},
+        "service_recovery_innovation": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of innovative solutions and service recovery strategies"
+    },
+    "multi_stakeholder_management": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "team_coordination": {"score": 0, "max_score": 10},
+        "external_relations": {"score": 0, "max_score": 10}
+      },
+      "justification": "Evaluation of staff coordination and external relationship management"
+    },
+    "business_continuity_and_recovery": {
+      "score": 0,
+      "max_score": 15,
+      "subcategory_breakdown": {
+        "operational_flow": {"score": 0, "max_score": 8},
+        "strategic_recovery": {"score": 0, "max_score": 7}
+      },
+      "justification": "Assessment of operational continuity and recovery planning"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [],
+    "weaknesses": [],
+    "standout_responses": [],
+    "concerning_responses": []
+  },
+  "judge_comments": {
+    "overall_impression": "",
+    "hospitality_expertise": "Assessment of hotel industry knowledge and service standards",
+    "crisis_management_skills": "Evaluation of multi-tasking and pressure performance capabilities",
+    "customer_service_excellence": "How well the response prioritized guest satisfaction and service recovery",
+    "improvement_suggestions": ""
+  }
+}
+```

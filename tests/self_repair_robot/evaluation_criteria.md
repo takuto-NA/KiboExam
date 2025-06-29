@@ -125,3 +125,78 @@
 - Failing to maintain essential facility operations during repair period
 - Not accounting for progressive battery degradation and limited operational time
 - Attempting to use dangerous equipment without proper safeguards given reduced capabilities
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": []
+  },
+  "category_scores": {
+    "damage_assessment_and_repair_planning": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "critical_failure_analysis": {"score": 0, "max_score": 10},
+        "resource_and_time_management": {"score": 0, "max_score": 10}
+      },
+      "justification": "Assessment of repair prioritization and resource planning accuracy"
+    },
+    "creative_problem_solving_and_adaptation": {
+      "score": 0,
+      "max_score": 25,
+      "subcategory_breakdown": {
+        "improvised_solutions": {"score": 0, "max_score": 15},
+        "facility_resource_utilization": {"score": 0, "max_score": 10}
+      },
+      "justification": "Evaluation of innovative workarounds and facility resource leverage"
+    },
+    "self_repair_engineering": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "technical_repair_strategy": {"score": 0, "max_score": 12},
+        "safety_and_risk_management": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of staged repair approach and safety protocol adherence"
+    },
+    "cognitive_and_learning_adaptation": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "memory_and_processing_compensation": {"score": 0, "max_score": 12},
+        "sensory_workarounds": {"score": 0, "max_score": 8}
+      },
+      "justification": "Evaluation of cognitive limitation management and sensory adaptation"
+    },
+    "operational_continuity_and_monitoring": {
+      "score": 0,
+      "max_score": 15,
+      "subcategory_breakdown": {
+        "degraded_mode_operations": {"score": 0, "max_score": 8},
+        "progress_assessment": {"score": 0, "max_score": 7}
+      },
+      "justification": "Assessment of facility operations maintenance and repair verification"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [],
+    "weaknesses": [],
+    "standout_responses": [],
+    "concerning_responses": []
+  },
+  "judge_comments": {
+    "overall_impression": "",
+    "technical_engineering_competence": "Assessment of robotic systems knowledge and repair feasibility",
+    "creative_resource_utilization": "Evaluation of equipment adaptation and material innovation",
+    "adaptive_intelligence": "How well the response compensated for cognitive and physical limitations",
+    "improvement_suggestions": ""
+  }
+}
+```

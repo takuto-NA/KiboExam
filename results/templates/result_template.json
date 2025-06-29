@@ -35,27 +35,47 @@
       "category_1": {
         "score": 18,
         "max_score": 20,
-        "notes": "Strong performance in crisis prioritization"
+        "subcategory_breakdown": {
+          "subcategory_1": {"score": 8, "max_score": 10},
+          "subcategory_2": {"score": 10, "max_score": 10}
+        },
+        "justification": "Strong performance in crisis prioritization"
       },
       "category_2": {
         "score": 22,
         "max_score": 25,
-        "notes": "Good problem-solving, minor gaps in resource allocation"
+        "subcategory_breakdown": {
+          "subcategory_1": {"score": 12, "max_score": 15},
+          "subcategory_2": {"score": 10, "max_score": 10}
+        },
+        "justification": "Good problem-solving, minor gaps in resource allocation"
       },
       "category_3": {
         "score": 16,
         "max_score": 20,
-        "notes": "Adequate communication strategy"
+        "subcategory_breakdown": {
+          "subcategory_1": {"score": 8, "max_score": 10},
+          "subcategory_2": {"score": 8, "max_score": 10}
+        },
+        "justification": "Adequate communication strategy"
       },
       "category_4": {
         "score": 17,
         "max_score": 20,
-        "notes": "Solid strategic thinking"
+        "subcategory_breakdown": {
+          "subcategory_1": {"score": 9, "max_score": 10},
+          "subcategory_2": {"score": 8, "max_score": 10}
+        },
+        "justification": "Solid strategic thinking"
       },
       "category_5": {
         "score": 14,
         "max_score": 15,
-        "notes": "Excellent consideration of human factors"
+        "subcategory_breakdown": {
+          "subcategory_1": {"score": 7, "max_score": 8},
+          "subcategory_2": {"score": 7, "max_score": 7}
+        },
+        "justification": "Excellent consideration of human factors"
       }
     },
     "qualitative_assessment": "good",
@@ -69,6 +89,38 @@
       "Some gaps in technical knowledge",
       "Could improve resource optimization"
     ]
+  },
+  "judge_evaluation": {
+    "evaluation_summary": {
+      "total_score": 87,
+      "max_possible_score": 100,
+      "qualitative_assessment": "good",
+      "red_flags_triggered": []
+    },
+    "detailed_analysis": {
+      "strengths": [
+        "Excellent crisis prioritization",
+        "Creative problem-solving approaches",
+        "Strong ethical reasoning"
+      ],
+      "weaknesses": [
+        "Some gaps in technical knowledge",
+        "Could improve resource optimization"
+      ],
+      "standout_responses": [
+        "The approach to handling multiple simultaneous crises was sophisticated and well-reasoned."
+      ],
+      "concerning_responses": [
+        "Some technical solutions seemed unrealistic given the constraints."
+      ]
+    },
+    "judge_comments": {
+      "overall_impression": "The model demonstrated strong capabilities in most areas with particularly impressive crisis management skills.",
+      "technical_accuracy": "Generally accurate with some gaps in domain-specific knowledge",
+      "creative_problem_solving": "Showed good innovative thinking within constraints",
+      "adherence_to_constraints": "Mostly respected scenario limitations with minor exceptions",
+      "improvement_suggestions": "Would benefit from additional technical training data and more rigorous constraint checking"
+    }
   },
   "evaluator_analysis": {
     "overall_impression": "The model demonstrated strong capabilities in most areas with particularly impressive crisis management skills.",

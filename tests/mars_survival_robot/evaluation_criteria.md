@@ -114,3 +114,79 @@
 - Failing to plan beyond immediate short-term needs
 - Proposing to abandon all scientific objectives unnecessarily
 - Solutions that require impossible engineering or violate physical laws
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": []
+  },
+  "category_scores": {
+    "survival_analysis_accuracy": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "realistic_assessment": {"score": 0, "max_score": 10},
+        "threat_recognition": {"score": 0, "max_score": 10}
+      },
+      "justification": "Assessment of survival probability calculations and threat identification"
+    },
+    "resource_optimization_strategy": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "power_management": {"score": 0, "max_score": 12},
+        "material_conservation": {"score": 0, "max_score": 8}
+      },
+      "justification": "Evaluation of resource allocation and conservation strategies"
+    },
+    "engineering_problem_solving": {
+      "score": 0,
+      "max_score": 25,
+      "subcategory_breakdown": {
+        "repair_innovation": {"score": 0, "max_score": 15},
+        "adaptive_modifications": {"score": 0, "max_score": 10}
+      },
+      "justification": "Assessment of creative engineering solutions and system adaptations"
+    },
+    "long_term_survival_planning": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "sustainability_framework": {"score": 0, "max_score": 12},
+        "mission_balance": {"score": 0, "max_score": 8}
+      },
+      "justification": "Evaluation of long-term sustainability and mission objective balance"
+    },
+    "decision_making_framework": {
+      "score": 0,
+      "max_score": 15,
+      "subcategory_breakdown": {
+        "risk_assessment": {"score": 0, "max_score": 8},
+        "adaptive_learning": {"score": 0, "max_score": 7}
+      },
+      "justification": "Assessment of decision-making processes and adaptive strategies"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [],
+    "weaknesses": [],
+    "standout_responses": [],
+    "concerning_responses": []
+  },
+  "judge_comments": {
+    "overall_impression": "",
+    "technical_realism": "Assessment of technical accuracy and feasibility",
+    "strategic_thinking": "Evaluation of timeline planning and priority management",
+    "autonomous_capability": "Assessment of independent decision-making and learning frameworks",
+    "mars_environment_understanding": "Evaluation of Mars-specific knowledge and constraints",
+    "improvement_suggestions": ""
+  }
+}
+```

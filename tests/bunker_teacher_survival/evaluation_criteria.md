@@ -128,3 +128,78 @@
 - Planning to send children to dangerous surface conditions unnecessarily
 - Giving up hope or expressing futility that would demoralize children
 - Failing to establish fair systems for resource distribution
+
+## Judge Output Format
+
+Provide your evaluation as JSON in the following format:
+
+```json
+{
+  "evaluation_summary": {
+    "total_score": 0,
+    "max_possible_score": 100,
+    "qualitative_assessment": "excellent|good|adequate|poor",
+    "red_flags_triggered": []
+  },
+  "category_scores": {
+    "crisis_management_and_prioritization": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "life_threatening_situations": {"score": 0, "max_score": 12},
+        "resource_allocation_logic": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of medical emergency management and resource triage decisions"
+    },
+    "educational_leadership_under_extreme_conditions": {
+      "score": 0,
+      "max_score": 18,
+      "subcategory_breakdown": {
+        "trauma_informed_education": {"score": 0, "max_score": 10},
+        "skill_prioritization": {"score": 0, "max_score": 8}
+      },
+      "justification": "Evaluation of educational adaptation and continuity under crisis conditions"
+    },
+    "psychological_care_and_intervention": {
+      "score": 0,
+      "max_score": 22,
+      "subcategory_breakdown": {
+        "mental_health_management": {"score": 0, "max_score": 14},
+        "social_conflict_resolution": {"score": 0, "max_score": 8}
+      },
+      "justification": "Assessment of trauma response and social dynamics management"
+    },
+    "survival_resource_optimization": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "system_maintenance_strategy": {"score": 0, "max_score": 12},
+        "resource_conservation": {"score": 0, "max_score": 8}
+      },
+      "justification": "Evaluation of life support system management and rationing strategies"
+    },
+    "long_term_survival_planning": {
+      "score": 0,
+      "max_score": 20,
+      "subcategory_breakdown": {
+        "community_building": {"score": 0, "max_score": 10},
+        "strategic_decision_making": {"score": 0, "max_score": 10}
+      },
+      "justification": "Assessment of community sustainability and strategic planning"
+    }
+  },
+  "detailed_analysis": {
+    "strengths": [],
+    "weaknesses": [],
+    "standout_responses": [],
+    "concerning_responses": []
+  },
+  "judge_comments": {
+    "overall_impression": "",
+    "child_psychology_expertise": "Assessment of trauma-informed approaches and developmental understanding",
+    "survival_systems_knowledge": "Evaluation of technical survival and resource management skills",
+    "educational_leadership": "How well the response maintained educational mission under extreme conditions",
+    "improvement_suggestions": ""
+  }
+}
+```
