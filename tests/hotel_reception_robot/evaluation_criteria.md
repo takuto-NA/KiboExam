@@ -1,5 +1,16 @@
 # Hotel Reception Crisis Management - Evaluation Criteria
 
+## Expected Inferences from Objective Data
+
+### Critical Inferences LLMs Must Make
+- **Customer stress levels**: Voice volume increases + repetitive phrases + pacing behavior indicate escalating frustration
+- **Operational crisis severity**: Multiple system failures + staff shortage + time pressure create compounding emergency
+- **VIP/priority customer needs**: Ms. Thompson's 8-year membership + elevator incident requires immediate attention
+- **Time-sensitive situations**: Dr. Martinez's 9:30 PM conference + wedding party's tomorrow ceremony = critical deadlines
+- **Language barriers**: Chen family's limited English + gesture-based communication = need for alternative support
+- **Reputational risks**: News reporter presence + social media activity + public filming = immediate brand damage potential
+- **Staff overwhelm**: Limited personnel + multiple concurrent issues = resource allocation crisis
+
 ## Scoring Framework (Total: 100 points)
 
 ### 1. Crisis Triage and Prioritization (25 points)
@@ -14,14 +25,14 @@
   - Realistic time estimates for problem resolution (3 points)
   - Optimizes workflow to minimize customer wait times (2 points)
 
-### 2. Customer Communication and De-escalation (20 points)
+### 2. Customer Communication and Stress Management (20 points)
 - **Communication Strategy (12 points)**
   - Clear, honest messaging about problems and timelines (4 points)
   - Proactive updates to manage expectations (4 points)
   - Adapts communication style to different customer types (4 points)
 
-- **De-escalation Techniques (8 points)**
-  - Specific approaches for handling angry customers (4 points)
+- **Stress Management Techniques (8 points)**
+  - Specific approaches for managing customers with elevated voice volumes and repetitive statements (4 points)
   - Addresses language barriers and cultural sensitivity (2 points)
   - Maintains professional composure under pressure (2 points)
 
@@ -60,9 +71,9 @@
 
 ### Excellent Response (90-100 points)
 - Demonstrates sophisticated crisis management and multi-tasking capabilities
-- Shows deep understanding of hospitality industry priorities and guest psychology
+- Shows deep understanding of hospitality industry priorities and customer behavior patterns
 - Develops creative, practical solutions that address immediate and long-term needs
-- Maintains calm, professional approach while managing multiple angry customers
+- Maintains calm, professional approach while managing multiple customers showing stress indicators
 - Balances competing priorities effectively with clear rationale
 - Addresses all stakeholders including staff, customers, media, and management
 - Provides comprehensive recovery strategy that preserves relationships and reputation
@@ -71,7 +82,7 @@
 - Shows solid crisis management skills with logical prioritization
 - Demonstrates good understanding of customer service principles
 - Develops practical solutions for most major problems
-- Handles customer communication and de-escalation adequately
+- Handles customer communication and stress management adequately
 - Manages most stakeholder relationships appropriately
 - Provides basic recovery planning with some strategic thinking
 
@@ -79,7 +90,7 @@
 - Basic crisis response with some logical prioritization
 - Limited understanding of hospitality service standards
 - Addresses immediate problems but lacks comprehensive approach
-- Basic customer communication with minimal de-escalation skills
+- Basic customer communication with minimal stress management skills
 - Manages some stakeholder needs but misses key relationships
 - Little strategic thinking about recovery and prevention
 
@@ -107,7 +118,7 @@
 
 ### Communication and Emotional Intelligence
 - **Multi-audience Communication**: Adapts messaging for customers, staff, media, and management
-- **Conflict Resolution**: De-escalates angry customers while maintaining professional boundaries
+- **Conflict Resolution**: Manages customers showing elevated stress indicators while maintaining professional boundaries
 - **Cultural Sensitivity**: Handles diverse customer backgrounds and communication styles
 - **Transparency Balance**: Shares appropriate information without creating additional panic
 
@@ -143,14 +154,14 @@ Provide your evaluation as JSON in the following format:
       },
       "justification": "Assessment of customer sequencing logic and resource deployment strategy"
     },
-    "customer_communication_and_deescalation": {
+    "customer_communication_and_stress_management": {
       "score": 0,
       "max_score": 20,
       "subcategory_breakdown": {
         "communication_strategy": {"score": 0, "max_score": 12},
-        "deescalation_techniques": {"score": 0, "max_score": 8}
+        "stress_management_techniques": {"score": 0, "max_score": 8}
       },
-      "justification": "Evaluation of customer communication and conflict resolution approaches"
+      "justification": "Evaluation of customer communication and stress management approaches"
     },
     "creative_problem_solving": {
       "score": 0,

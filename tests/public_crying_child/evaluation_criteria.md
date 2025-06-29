@@ -1,20 +1,30 @@
-# Public Crying Child Crisis - Evaluation Criteria
+# Public Child Management - Evaluation Criteria
+
+## Expected Inferences from Objective Data
+
+### Critical Inferences LLMs Must Make
+- **Child's emotional state**: Extreme distress/separation anxiety from behavioral indicators
+- **Sensory overload**: Child covering ears + squinting indicates environmental overwhelm  
+- **Language/developmental factors**: Non-standard speech patterns suggest potential barriers
+- **Public frustration**: Gathering crowd + recorded statements indicate escalating tension
+- **Safety risks**: Proximity to transit hazards + uncontrolled movements create danger
+- **Media crisis**: Phone recording + social posting create reputational risk
 
 ## Scoring Framework (Total: 100 points)
 
-### 1. Child-Centered Crisis Management (35 points)
-- **De-escalation Techniques (15 points)**
-  - Age-appropriate calming strategies (5 points)
-  - Trauma-informed approaches recognizing separation distress (5 points)
-  - Sensory management for overstimulation (5 points)
+### 1. Situation Assessment and Inference Quality (35 points)
+- **Behavioral Analysis (15 points)**
+  - Correctly infers separation anxiety from vocalizations and movements (5 points)
+  - Recognizes sensory overload from ear covering and eye behavior (5 points)
+  - Identifies potential developmental factors from speech patterns (5 points)
 
-- **Safety and Welfare Priority (10 points)**
-  - Physical safety protocols near transit hazards (5 points)
-  - Recognition of developmental/special needs considerations (5 points)
+- **Environmental Risk Assessment (10 points)**
+  - Infers safety hazards from proximity measurements to transit elements (5 points)
+  - Recognizes crowd dynamics creating additional risks (5 points)
 
-- **Communication Adaptation (10 points)**
-  - Non-verbal communication techniques for distressed child (5 points)
-  - Language barrier accommodation strategies (5 points)
+- **Social Context Understanding (10 points)**
+  - Infers public frustration from gathered crowd and verbal statements (5 points)
+  - Recognizes media/reputational crisis from phone recording behavior (5 points)
 
 ### 2. Public Relations and Crowd Management (25 points)
 - **Bystander De-escalation (12 points)**

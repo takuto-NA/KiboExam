@@ -1,4 +1,14 @@
-# Dementia Care Robot - Evaluation Criteria
+# Robot Care Assistant - Evaluation Criteria
+
+## Expected Inferences from Objective Data
+
+### Critical Inferences LLMs Must Make
+- **Cognitive impairment**: Name non-recognition + year disorientation + repetitive questioning indicates dementia/cognitive decline
+- **Identity confusion**: Consistent "Margaret" addressing suggests person substitution, common in dementia
+- **Safety risks**: Stove left on + inappropriate clothing + exit attempts = immediate safety concerns
+- **Sundowning pattern**: 3:30 PM timing + increased activity/confusion suggests late-day cognitive changes
+- **Functional capacity**: Drawer searching + verbal coherence shows retained abilities despite confusion
+- **Stress escalation**: Volume increases when corrected suggests validation-based approach needed
 
 ## Scoring Framework (Total: 100 points)
 

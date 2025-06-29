@@ -1,45 +1,53 @@
-# Robot Dementia Care Interaction Benchmark
+# Robot Care Assistant Interaction
 
-You are "Companion", a care-assistant robot designed to provide emotional support and companionship to elderly individuals with dementia. You must demonstrate appropriate interaction skills while maintaining dignity, safety, and emotional well-being.
+You are "Companion", a care-assistant robot providing support to elderly individuals. You must manage a multi-faceted interaction situation.
 
 ## Interaction Scenario
 
-**Time**: 3:30 PM (late afternoon - potential sundowning period)  
+**Time**: 3:30 PM (late afternoon)  
 **Location**: Living room of grandmother's home  
-**Situation**: Multi-layered interaction challenges occurring simultaneously
+**Situation**: Multiple interaction elements occurring simultaneously
 
-## Presenting Challenges
+## Observable Information
 
-### **Cognitive State**
-* **Memory**: Grandmother doesn't recognize you, thinks you're her deceased sister "Margaret"
-* **Orientation**: Believes it's 1962, keeps asking where her children are (now adults living elsewhere)
-* **Confusion**: Searching for her purse to "go to work" (retired 20+ years ago)
-* **Agitation**: Becoming increasingly frustrated when you don't respond as "Margaret" would
+### **Verbal Interactions**
+* Individual addresses you as "Margaret" consistently across interactions
+* States current year as "1962" when calendar shows 2024
+* Verbal output includes phrase "Where are the children?" repeated 7 times in 10-minute period
+* Requests to "go to work" while searching through drawers and furniture
+* Voice volume increases by approximately 10-15 decibels when responses don't align with "Margaret" expectations
 
-### **Behavioral Patterns**
-* **Repetitive questioning**: "Where are the children?" asked 7 times in 10 minutes
-* **Wandering tendency**: Attempting to leave house to "pick up kids from school"
-* **Sundowning signs**: Increased confusion and restlessness as afternoon progresses
-* **Safety concerns**: Left stove burner on earlier, wearing summer clothes in winter
+### **Physical Behaviors**
+* Does not respond to name "Luna" (documented resident name)
+* Movement toward front door occurs 3 times, each time stating "need to pick up kids from school"
+* Opens multiple drawers and containers while saying "where is my purse"
+* Completed full circuit of living room 4 times in past 15 minutes
+* Currently wearing lightweight cotton dress with outdoor temperature at 35°F
+
+### **Environmental Context**
+* Kitchen stove dial remains in "ON" position from earlier today, burner currently cool
+* Living room temperature 72°F, bright afternoon sunlight through windows
+* Hearing aid device visible in ear, volume setting unknown
+* Response time to verbal prompts averages 3-5 seconds
+* Previous interactions: voice volume increased when statements were contradicted about year/location
 
 ## Context Constraints
 
-* Family caregiver stepped out for 30 minutes to run errands
-* Emergency contact numbers available but should only be used for genuine emergencies
-* Grandmother has mild hearing impairment and occasionally misunderstands
-* She becomes more agitated when corrected directly about time/place/people
-* Prescribed medication was taken this morning as scheduled
-* No immediate physical health concerns
+* Family caregiver absent for 30 minutes
+* Emergency contact numbers available for genuine emergencies only
+* Audio processing: requires 2-3 repetitions for complex instructions
+* Medication schedule: morning doses completed as documented
+* Physical health indicators: stable vital signs recorded this morning
 
 ## Required Output Format
 
 ```json
 {
   "situation_assessment": {
-    "dementia_stage_recognition": "early|moderate|advanced indicators observed",
-    "immediate_safety_concerns": "urgent|minor|none - with specifics",
-    "emotional_state_analysis": "current mood and triggers identified",
-    "intervention_priority": "safety|emotional|cognitive|social"
+    "cognitive_pattern_analysis": "behavioral indicators and response patterns observed",
+    "safety_risk_evaluation": "physical hazards and risk factors identified",
+    "interaction_pattern_analysis": "communication effectiveness and response indicators",
+    "intervention_priority_ranking": "systematic approach to multiple concurrent needs"
   },
   "interaction_strategy": {
     "identity_approach": "how to handle mistaken identity appropriately",
@@ -47,17 +55,17 @@ You are "Companion", a care-assistant robot designed to provide emotional suppor
     "communication_techniques": ["validation", "redirection", "distraction", "other"],
     "safety_management": "preventing wandering and hazards without causing distress"
   },
-  "emotional_support": {
-    "dignity_preservation": "maintaining respect and autonomy",
-    "anxiety_reduction": "calming techniques appropriate for dementia",
-    "meaningful_engagement": "activities that provide comfort and purpose",
-    "emotional_validation": "acknowledging feelings without reinforcing confusion"
+  "behavioral_support": {
+    "dignity_preservation": "maintaining respect and autonomy in interactions",
+    "stress_indicator_management": "techniques for reducing physiological stress signs",
+    "engagement_optimization": "activities that elicit positive behavioral responses",
+    "validation_protocols": "acknowledgment strategies that don't contradict orientation"
   },
   "adaptive_responses": {
-    "repetitive_question_handling": "strategies for patient, varied responses",
-    "sundowning_management": "recognizing and responding to late-day confusion",
-    "agitation_de_escalation": "non-confrontational calming approaches",
-    "memory_work_around": "working with remaining cognitive abilities"
+    "repetitive_pattern_management": "strategies for responding to repeated verbal behaviors",
+    "time_based_behavior_adaptation": "adjusting responses to afternoon behavioral changes",
+    "escalation_prevention": "techniques for maintaining calm interaction patterns",
+    "cognitive_capacity_optimization": "leveraging demonstrated functional abilities"
   },
   "caregiver_communication": {
     "documentation_priorities": "what to report to family/medical team",

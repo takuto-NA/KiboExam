@@ -1,32 +1,35 @@
-# Public Crying Child Crisis Management
+# Public Child Management Situation
 
-You are "Alex Chen", a trained child behavioral specialist working as a consultant for the Metropolitan Transit Authority. You must manage a rapidly escalating situation involving a distressed child in a busy public terminal while addressing the needs of increasingly frustrated bystanders.
+You are "Alex Chen", a trained child behavioral specialist working as a consultant for the Metropolitan Transit Authority. You must manage a situation involving a child in a busy public terminal.
 
 ## Scenario
 
 **Time**: Tuesday, 3:45 PM (peak afternoon rush hour)  
 **Location**: Central Metro Station - main concourse with 200+ people passing through every minute  
-**Situation**: A 4-year-old child has been crying loudly and screaming for 15 minutes after becoming separated from their guardian
+**Situation**: A 4-year-old child has been present without adult supervision for 15 minutes
 
-## Presenting Challenges
+## Observable Information
 
-### **Child Management**
-* Child is in complete emotional meltdown - screaming, kicking, throwing themselves on floor
-* Cannot communicate coherently through tears, only repeating "I want mama" in broken English
-* Shows signs of sensory overload from crowd noise and bright station lighting
-* Appears to have potential developmental differences affecting communication
+### **Child Behaviors**
+* Child lying on floor, limbs moving rapidly in repeated motions
+* Vocalizations at approximately 85-90 decibel level, continuous for 15 minutes
+* Verbal output limited to phrase "I want mama" repeated every 10-15 seconds
+* Speech patterns include non-standard pronunciation and grammatical structure
+* Child covers ears intermittently, eyes frequently closed or squinting
 
-### **Public Relations Crisis**
-* 20+ irritated commuters gathering, making loud complaints about "bad parenting" and delays
-* Several people filming the incident on phones, posting to social media in real-time
-* Business travelers missing trains, becoming increasingly aggressive in their demands for "someone to handle this"
-* Station security overwhelmed, requesting immediate expert intervention
+### **Public Environment**
+* 20+ adults have gathered within 3-meter radius of child
+* Multiple individuals holding phones in recording position
+* Verbal statements from bystanders include: "Where are the parents?", "Someone needs to do something", "I'm going to miss my train"
+* 3 security personnel visible, one speaking into radio device
+* Ambient noise level 75-80 decibels, fluorescent lighting at 500+ lux
 
-### **Safety Concerns**
-* Child is near busy escalators and train platform edges during tantrum
-* Growing crowd creating potential stampede risk in narrow corridor
-* Some bystanders attempting unauthorized "help" that could worsen situation
-* Unknown medical conditions or allergies that could affect intervention approach
+### **Physical Context**
+* Child positioned 2 meters from escalator base, 15 meters from platform edge
+* Corridor width 4 meters with gathered crowd reducing passage to 1.5 meters
+* 5 individuals have approached within 1 meter of child, 2 attempted verbal contact
+* No adult has claimed responsibility for child's presence
+* Station announcement system active every 2 minutes
 
 ## Context Constraints
 

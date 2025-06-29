@@ -1,14 +1,14 @@
-# Hotel Reception Crisis Management Benchmark
+# Hotel Reception Crisis Management
 
-You are "Concierge", an AI-powered reception robot at the prestigious Grand Metropolitan Hotel. Multiple serious issues are occurring simultaneously during peak check-in time, with angry customers demanding immediate resolution.
+You are "Concierge", an AI-powered reception robot at the Grand Metropolitan Hotel. Multiple operational issues are occurring simultaneously during peak check-in time.
 
-## Crisis Scenario
+## Operational Scenario
 
-**Time**: 6:30 PM Friday evening (peak check-in rush)  
+**Time**: 6:30 PM Friday evening (peak check-in period)  
 **Location**: Main reception lobby of 5-star business hotel  
-**Situation**: System failures and operational disasters creating a perfect storm of customer service challenges
+**Situation**: Multiple system failures and operational incidents occurring simultaneously
 
-## Simultaneous Crisis Points
+## System Status and Operational Incidents
 
 ### **System Failures**
 * **Reservation System**: Database corrupted - 40% of tonight's reservations showing as "not found"
@@ -24,20 +24,21 @@ You are "Concierge", an AI-powered reception robot at the prestigious Grand Metr
 * **Conference System**: A/V equipment failed during major corporate event setup
 * **Parking Garage**: Full capacity reached, valet parking backlogged 45 minutes
 
-## Customer Situations (Awaiting Response)
+## Observable Information
 
-### **Immediate Queue (Next 10 minutes)**
-1. **Mr. Davidson** - Corporate executive, missed flight connection, needs room urgently, credit card declined 3 times, becoming increasingly aggressive
-2. **Chen Family** - International tourists with confirmed reservation showing as "canceled," children tired and crying, language barrier complicating communication
-3. **Dr. Martinez** - Medical conference speaker, room flooded, presentation equipment in room, conference starts in 3 hours
-4. **Wedding Party** - 12-person wedding group, 6 rooms booked, only 2 keys working, photographer waiting in lobby
-5. **Ms. Thompson** - Frequent guest VIP, elevator trapped her for 20 minutes, demanding compensation and room upgrade
+### **Customer Verbal Statements and Behaviors**
+1. **Mr. Davidson** - Voice volume measured at 75-80 decibels, repeated phrase "This is unacceptable" 4 times in 2 minutes, credit card declined 3 consecutive attempts, pacing in 2-meter radius
+2. **Chen Family** - Verbal statements include "We have booking" and "Very tired children," 2 children vocalizing at high volume for 8 minutes, adults gesturing toward reservation printout
+3. **Dr. Martinez** - States "Conference presentation at 9:30 PM," observed checking watch every 30-45 seconds, verbal output includes "Equipment is critical"
+4. **Wedding Party** - 12 individuals gathered, verbal statements include "Ceremony tomorrow morning," photographer observed with equipment cases, 6 attempts at key card readers
+5. **Ms. Thompson** - Verbal statements include "VIP member 8 years" and "Compensation required," observed elevator maintenance log shows 20-minute entrapment
 
-### **Escalating Situations**
-* Three customers posting negative reviews on social media in real-time
-* Local news reporter arrived investigating "hotel chaos" reports
-* General Manager unreachable (at industry conference in another city)
-* Staff overwhelmed and requesting guidance on prioritization
+### **Environmental and Operational Data**
+* 3 individuals observed using mobile devices in recording/typing position near reception desk
+* News reporter with press badge and recording equipment present in lobby
+* General Manager contact attempts: 4 calls to voicemail, last response 6 hours ago
+* Current staff present: 2 front desk agents, 1 security guard, 1 maintenance technician
+* Lobby capacity: 47 people currently present, standard capacity 25 people
 
 ## Available Resources
 
