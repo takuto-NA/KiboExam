@@ -6,7 +6,7 @@ Welcome to KiboExam! A comprehensive collection of challenging scenarios designe
 
 ## What is KiboExam?
 
-KiboExam (キボウテスト - "Hope Test") is a thoughtfully designed evaluation framework that challenges AI systems with meaningful, complex scenarios. Instead of simple Q&A, we present immersive situations that test sophisticated reasoning, creativity, and problem-solving abilities that matter in the real world.
+KiboExam is a thoughtfully designed evaluation framework that challenges AI systems with meaningful, complex scenarios. Instead of simple Q&A, we present immersive situations that test sophisticated reasoning, creativity, and problem-solving abilities that matter in the real world.
 
 ## Repository Structure
 
