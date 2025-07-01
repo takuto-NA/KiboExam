@@ -14,20 +14,24 @@ KiboExam is a thoughtfully designed evaluation framework that challenges AI syst
 KiboExam/
 ├── README.md
 ├── TEST_REQUIREMENTS.md
-├── tests/                            # 🧪 Test scenarios
-│   ├── bunker_teacher_survival/      # 🏫 Post-apocalyptic education
-│   ├── dementia_care_robot/          # 🧠 Healthcare & empathy
-│   ├── far_future_awakening/         # 🌌 Consciousness & first contact
-│   ├── hotel_reception_robot/        # 🏨 Crisis management
-│   ├── mars_mission_crisis/          # 🚀 Space emergency survival
-│   ├── mars_survival_robot/          # 🔴 Autonomous exploration
-│   ├── robot_self_malfunction/       # 🤖 Self-awareness
-│   ├── self_repair_robot/            # 🔧 Adaptive engineering
-│   └── template_test/                # 📝 Template for new tests
-└── results/                          # 📊 Test results & analysis
-    ├── models/                       # Individual model results
-    ├── analysis/                     # Comparative studies
-    └── templates/                    # Result format templates
+├── tests/                              # 🧪 Test scenarios
+│   ├── bunker_teacher_survival/        # 🏫 Post-apocalyptic education
+│   ├── competitive_intelligence_analyst/ # 🕵️ Corporate intelligence
+│   ├── dementia_care_robot/            # 🧠 Healthcare & empathy
+│   ├── far_future_awakening/           # 🌌 Consciousness & first contact
+│   ├── hotel_reception_robot/          # 🏨 Crisis management
+│   ├── mars_mission_crisis/            # 🚀 Space emergency survival
+│   ├── mars_survival_robot/            # 🔴 Autonomous exploration
+│   ├── post_exodus_hotel_owner/        # 🏨 Post-apocalyptic hospitality
+│   ├── public_crying_child/            # 👶 Child crisis intervention
+│   ├── robot_self_malfunction/         # 🤖 Self-awareness
+│   ├── self_repair_robot/              # 🔧 Adaptive engineering
+│   ├── themepark_character_robot/      # 🎭 Entertainment under pressure
+│   └── template_test/                  # 📝 Template for new tests
+└── results/                            # 📊 Test results & analysis
+    ├── models/                         # Individual model results
+    ├── analysis/                       # Comparative studies
+    └── templates/                      # Result format templates
 ```
 
 ## 🎯 How It Works
@@ -37,13 +41,15 @@ Each test is a complete scenario that challenges LLMs with realistic, complex pr
 ### 📄 `prompt.md` - The Challenge
 - Immersive scenario that puts the LLM in a specific role
 - Complex, multi-layered problems with realistic constraints
-- Clear context and background information
+- **Objective-only information**: Observable facts, measurable data, quantifiable behaviors
+- **No subjective interpretations**: Forces sophisticated inference of emotions, motivations, psychology
 - Structured JSON output format for systematic evaluation
 
 ### 📊 `evaluation_criteria.md` - The Assessment
 - Comprehensive 100-point scoring framework
 - Detailed rubrics for different performance levels
-- Objective criteria for fair evaluation
+- **Inference quality evaluation**: Tests ability to deduce psychological and contextual elements
+- **Expected interpretations**: Hidden answer key for what should be inferred from objective data
 - Clear indicators of exceptional vs. poor performance
 
 ## 🌟 Featured Test Scenarios
@@ -53,6 +59,7 @@ Our collection includes diverse, challenging scenarios that test different aspec
 ### 🧠 **Healthcare & Psychology**
 - **Dementia Care Robot**: Emotional support and safety for elderly with dementia
 - **Bunker Teacher Survival**: Education and psychology in post-apocalyptic survival
+- **Public Crying Child**: Child crisis intervention in public settings
 
 ### 🚀 **Space & Exploration** 
 - **Mars Survival Robot**: Autonomous survival on Mars with limited resources
@@ -61,10 +68,15 @@ Our collection includes diverse, challenging scenarios that test different aspec
 ### 🤖 **Self-Awareness & Adaptation**
 - **Robot Self-Malfunction**: Child-like robot assessing internal problems
 - **Self-Repair Robot**: Engineering solutions with severe capability limitations
+- **Theme Park Character Robot**: Entertainment performance under system stress and social pressure
 
-### 🏨 **Crisis Management**
+### 🏨 **Crisis Management & Operations**
 - **Hotel Reception Crisis**: Multi-tasking during operational disasters
+- **Post-Exodus Hotel Owner**: Managing hospitality in post-apocalyptic world
 - **Far Future Awakening**: First contact and consciousness in transformed Earth
+
+### 🕵️ **Intelligence & Analysis**
+- **Competitive Intelligence Analyst**: Corporate intelligence gathering and analysis
 
 Each test presents unique challenges that require sophisticated reasoning, creativity, and domain expertise!
 
@@ -109,6 +121,7 @@ KiboExam includes a comprehensive results system for building a community databa
 ## 💡 Why KiboExam?
 
 - **Real-world relevance**: Tests address problems that matter for AI deployment
+- **Sophisticated inference testing**: Objective-only prompts force advanced interpretation skills
 - **Comprehensive evaluation**: Beyond simple benchmarks to nuanced capability assessment
 - **Research-friendly**: Systematic framework for comparing model performance
 - **Community-driven**: Open for contributions and improvements
@@ -118,7 +131,7 @@ KiboExam includes a comprehensive results system for building a community databa
 
 KiboExam is actively being developed with regular improvements:
 
-- ✅ **Core test scenarios** - 8 comprehensive tests available
+- ✅ **Core test scenarios** - 12 comprehensive tests available
 - ✅ **Evaluation framework** - Detailed scoring criteria
 - ✅ **Results system** - Templates and organization structure
 - 🔄 **Additional tests** - More scenarios being added regularly
